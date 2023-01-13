@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+header{
+    background-color: steelblue;
+    display: grid;
+    grid-template-columns: 1300px auto;
+    padding: 25px 50px;
+    align-items: center;
+    width: 50%;
+    border-radius: 10px;
+    
+    
+}
+h1 {
+    margin-left: right;
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 3/4;
+    color: white;
+    border-radius: 50px;
+    text-shadow: 2px 2px 5px black ;
+    
+}
+
+img {
+    display: block;
+    margin-left: left;
+    margin-right: auto;
+    grid-column: 1/4;
+    grid-row:2/4 ;
+    
+
+    
+    
+}
+
+
+footer {
+    background-color: steelblue;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 50px;
+    width: 50%;
+    border-radius: 10px;
+}
+nav{
+    
+    vertical-align: left  ;
+}
+h2 {
+    border-bottom: solid black ;
+    color: black;
+    text-shadow: 2px 2px 5px darkgray ;
+}
+ul.a {
+    list-style-type: circle;
+
+}
