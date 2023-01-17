@@ -12,7 +12,7 @@ header{
     
 }
 h1 {
-    margin-left: right;
+   
     width: 40%;
     padding: 10px;
     text-align: center;
@@ -26,7 +26,6 @@ h1 {
 
 img {
     display: block;
-    margin-left: left;
     margin-right: auto;
     grid-column: 1/4;
     grid-row:2/4 ;
@@ -48,10 +47,8 @@ footer {
     width: 50%;
     border-radius: 10px;
 }
-nav{
-    
-    vertical-align: left  ;
-}
+
+
 h2 {
     border-bottom: solid black ;
     color: black;
