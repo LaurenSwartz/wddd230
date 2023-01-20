@@ -88,11 +88,14 @@ main section:nth-child(2) {
 header {
 	background-color: #eee;
 	display: grid;
-	grid-template-columns: 200px 1fr;
-	padding: 20px;
-	grid-area: header;
-	justify-content:center;
-	align-items:center;
-    border: 1px solid #bbb;
     text-align: center;
+    border: 1px solid #bbb;
+
 }
+ h2{
+    background-color: #eee;
+	display: grid;
+    text-align: center;
+    border: 1px solid #bbb;
+
+ }
