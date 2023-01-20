@@ -34,7 +34,12 @@ main section:nth-child(2) {
 .colimage {
 	box-shadow: 0 0 30px #333;
 }
-
+.pay{
+    box-shadow: 0 0 30px #333;
+}
+.game{
+    box-shadow: 0 0 30px #333;
+}
 /* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
 	main {
@@ -84,9 +89,10 @@ header {
 	background-color: #eee;
 	display: grid;
 	grid-template-columns: 200px 1fr;
-	padding: 7px;
+	padding: 20px;
 	grid-area: header;
 	justify-content:center;
 	align-items:center;
     border: 1px solid #bbb;
+    text-align: center;
 }
