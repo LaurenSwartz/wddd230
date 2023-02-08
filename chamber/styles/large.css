@@ -1,0 +1,111 @@
+@media only screen and (min-width: 64rem) {
+    
+    
+    nav button {
+       display: none;
+    }
+   
+    nav ul#primary {
+       display: flex;
+       justify-content: flex-start ;
+       margin-left: 2vw;
+       
+    }
+   
+    nav ul li a {
+       border: none;
+       
+    }
+    nav ul lia {
+        padding: 5rem 1rem;
+    }
+    #logo {
+    
+        width: 150px;
+        height: auto;
+    }
+    #florida{
+        height: 150px;
+        width:auto;
+    }
+    main{
+        display:grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    main #hero{
+        margin: 5px 5px;
+        height: 410px;
+        grid-column: 2/3;
+        grid-row: 1/3;
+        
+    }
+    
+    main #newrelease {
+        margin: 5px 5px;
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    main #spotlight {
+        margin: 5px 5px;
+        height: 620px;
+        grid-column: 3/4;
+        grid-row: 1/4;
+        display: grid;
+        grid-template-columns: 1fr
+        
+    }
+    main section div.spot1 {
+       margin: 10px 10px;
+       height: 180px;
+       width: 180px;
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+    main section div.spot2 {
+        margin: 10px 10px;
+        height: 180px;
+        width: 180px;
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    main section div.spot3 {
+        display: inline;
+        margin: 10px 10px;
+        height: 180px;
+        width: 180px;
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+   
+    main #event {
+        margin: 5px 5px;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+   main #weather { 
+    margin: 5px 5px;
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    main #join { 
+        margin: 5px 5px;
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

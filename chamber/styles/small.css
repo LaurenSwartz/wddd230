@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap');
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+header {
+    background-color: #9b7874;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#logo {
+    height: 50px;
+    width:auto;
+	border: 2px solid;
+    
+    
+}
+#florida{
+	height: 100px;
+    width:auto;
+	border: 2px solid;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  solid;
+    font-size:x-small;
+    margin-left: 10px;
+	color: #1c1f33;
+}
+#facebook {
+    width: 20px;
+    height: auto;
+   
+}
+#linkedin {
+    width: 20px;
+    height: auto;
+}
+#icons {
+    justify-content:center;
+}
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: 2px solid;
+    font-family: Roboto;
+    font-size: 2rem;
+    color: #1c1f33;
+    justify-items:flex-end;
+}
+nav {
+    background-color: #9b7874;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #1c1f33;
+    border-top: 1px solid  rgba(0,0,0,0.3);
+}
+
+#primary a:hover{
+ background-color: #0D3B66;
+    color:#eee   
+}
+.date {
+margin: 0.5rem;
+border: 1px solid #bbb;
+padding: 0.75rem;
+background-color: #1c1f33;
+font-family: Lorina solid;
+color: #eee;
+text-align: center;
+margin-top: -1px;
+}
+ 
+    
+main{
+    display:block;
+	
+}
+main section{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 200px;
+    margin-top: 10px;
+    background-color: #eee;
+    padding:10px;
+    font-family: Roboto;
+}
+main section div{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 80px;
+    margin-top: 10px;
+    background-color: #eee;
+    padding:10px;
+
+}
+main section div.spot3{
+    display: none;
+}
+main #join {
+    display: none;
+}
+footer {
+    width: 100%;
+    background-color: #9b7874;
+    justify-content: center;
+}
+footer .section1{
+    font-family: Roboto solid;
+    text-align: center;
+	margin-left: 50px;
+	color: #1c1f33;
+}
+footer .section2 {
+    font-family: Roboto;
+    padding: 15px 10px;
+    text-align: Center;
+	color: #1c1f33;
+ }
+ footer .group3 {
+    font-family: Roboto;
+    text-align: Center;
+	color: #1c1f33;
+ }
+
+ footer .box a{
+    color: #1c1f33
+ }
+
+ footer .box a:hover {
+    background-color: #1c1f33;
+    color:#eee
+}
+
+nav ul li a:hover {
+    background-color: #1c1f33;
+    color:#eee
+}
+
+
+
+
+
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburguerBton span:nth-child(1) {display: block;}
+#hamburguerBton span:nth-child(2) {display: none;}
+
+#hamburguerBton.open span:nth-child(1) {display: none;}
+#hamburguerBton.open span:nth-child(2) {display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
