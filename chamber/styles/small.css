@@ -4,6 +4,9 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+h1 {
+	margin: 0 2vw;
+} 
 
 header {
     background-color: #9b7874;
@@ -62,7 +65,7 @@ nav {
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0 2vw;
 }
 
 nav ul li a {
