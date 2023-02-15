@@ -3,6 +3,7 @@ body {
 	font-family: "Sansita", Ubuntu, sans-serif;
 }
 /* phone or baseline views **************************/
+
 main {
 	max-width: 767px;
 	margin: 0 auto;
@@ -11,7 +12,9 @@ main {
 	font-size: 0.8rem;
 }
 
-
+img {
+	width: 95%;
+}
 
 main section {
 	margin: 0.5rem;
@@ -22,6 +25,8 @@ main section {
 
 main section h2 {
 	color: #536878;
+
+
 }
 
 
@@ -33,6 +38,7 @@ main section:nth-child(2) {
 
 .colimage {
 	box-shadow: 0 0 30px #333;
+	
 }
 .pay{
     box-shadow: 0 0 30px #333;
@@ -40,6 +46,7 @@ main section:nth-child(2) {
 .game{
     box-shadow: 0 0 30px #333;
 }
+
 /* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
 	main {
