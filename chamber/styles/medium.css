@@ -3,6 +3,8 @@
     header {
         display: flex;
     }
+  
+    
     #logo {
     justify-content: left;
     margin-left: -100px;
