@@ -1,7 +1,16 @@
 @media only screen and (min-width: 64rem) {
-    
-    .banner{
+    h1, p {
         text-align: center;
+    }
+    .banner{
+        margin: 0.5rem;
+        border: 1px solid #bbb;
+        padding: 0.75rem;
+        background-color: #1c1f33;
+        font-family: Roboto solid;
+        color: #eee;
+        text-align: center;
+        margin-top: -1px;
     }
     nav button {
        display: none;
@@ -47,6 +56,7 @@
         margin: 5px 5px;
         grid-column: 2/3;
         grid-row: 3/4;
+        
     }
     main #spotlight {
         margin: 5px 5px;
@@ -59,23 +69,23 @@
     }
     main section div.spot1 {
        margin: 10px 10px;
-       height: 180px;
-       width: 180px;
+       height: 175px;
+       width: 300px;
         grid-column: 3/4;
         grid-row: 1/2;
     }
     main section div.spot2 {
         margin: 10px 10px;
-        height: 180px;
-        width: 180px;
+        height: 175px;
+        width: 300px;
         grid-column: 3/4;
         grid-row: 2/3;
     }
     main section div.spot3 {
         display: inline;
         margin: 10px 10px;
-        height: 180px;
-        width: 180px;
+        height: 175px;
+        width: 300px;
         grid-column: 3/4;
         grid-row: 3/4;
     }
@@ -94,6 +104,27 @@
         margin: 5px 5px;
         grid-column: 1/2;
         grid-row: 3/4;
+    }
+    #joinbtn{
+        height: 30px;
+        width: 100px;
+        margin-top: 10px;
+        margin-left: 100px;
+        background-color: #1c1f33;
+        color: white;
+        border-radius: 7px solid white ;
+
+    }
+    #herobtn{
+        height: 50px;
+        width: 100px;
+        margin: 10px auto;
+        background-color: #1c1f33;
+        color: white;
+        border-radius: 7px solid white ;
+        position: absolute;
+        right:800px;
+        top: 400px;
     }
 }
 
