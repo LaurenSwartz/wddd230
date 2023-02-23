@@ -38,9 +38,13 @@
     </header>
     <div class="date"></div>
    
-    <main>
+    <main class="clearfix">
         <section id="hero">
-            <img src="images/com image.jpeg" alt="community picture">
+            <img src="images/wdd230-org.jpg" alt="community picture" sizes="50vw"
+                srcset="images/wdd230-org-1.jpg 200w,
+                        images/wdd230-org-2.jpg 500w,
+                        images/wdd230-org-3.jpg 800w"
+            >
             <button id="herobtn">Join the Chamber</button>
         </section>
 
@@ -55,6 +59,15 @@
 
         <section id="weather">
             <h1>Weather</h1>
+            <label>Temperature:</label>
+            <br>
+            <input id="tempinput" size="7">
+            <br>
+            <label>Wind Speed:</label>
+            <br>
+            <input id="windinput" size="7">
+            <button id="calculatebtn" onclick="calculatewind()">Calculate</button>
+            <span id="windchill">0</span>
         </section>
         <section id="newrelease">
             <h1>News Release</h1>
@@ -110,6 +123,6 @@
     <script src="scripts/chamber2.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/banner.js"></script>
-    
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
