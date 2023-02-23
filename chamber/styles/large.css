@@ -112,7 +112,7 @@
         margin-left: 100px;
         background-color: #1c1f33;
         color: white;
-        border-radius: 7px solid white ;
+        border-radius: 7px  white ;
 
     }
     #herobtn{
@@ -121,7 +121,7 @@
         margin: 10px auto;
         background-color: #1c1f33;
         color: white;
-        border-radius: 7px solid white ;
+        border-radius: 7px  white ;
         position: absolute;
         right:800px;
         top: 400px;
