@@ -40,12 +40,13 @@
    
     <main class="clearfix">
         <section id="hero">
-            <img src="images/wdd230-org.jpg" alt="community picture" sizes="50vw"
-                srcset="images/wdd230-org-1.jpg 200w,
-                        images/wdd230-org-2.jpg 500w,
-                        images/wdd230-org-3.jpg 800w"
-            >
+            <picture class="hero">
+                <source media="(max-width: 200px)" srcset="images/wdd230-org-1.jpg">
+                <source media="(max-width: 500px)" srcset="images/wdd230-org-2.jpg">
+                <source media="(max-width: 800px)" srcset="images/wdd230-org-3.jpg">
+            <img src="images/wdd230-org.jpg" alt="community picture" >
             <button id="herobtn">Join the Chamber</button>
+            </picture>
         </section>
 
         <section id="event">
