@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progressive Loading of Images</title>
+    <link href="styles/small.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body>
+    <div class="banner"> 🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+    <header>
+        <img id="logo" src="images/Florida Lake.png" alt="Chamber logo">
+        <section class="headings">
+        <h1>Florida Lake Chamber  </h1>
+    
+        </section>
+        
+        <nav>
+            <button id="hamburgerBton"><span>&#9776;</button>
+            <ul id="primary">
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>    
+            </ul>
+        </nav>
+    <main>
+        <h1>Progressive Loading of Images</h1>
+        <picture>
+            <img src="images/placeholder.png"  data-src="images/candy image.jpeg" alt="candy image">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png"  data-src="images/forest .jpeg" alt="forest image">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/ocean view.jpeg" alt="ocean image">
+        </picture>
+        <picture>
+            <img  src="images/placeholder.png"data-src="images/pineapple picture.webp" alt="pineapple image">
+        </picture>
+        <picture>
+            <img src="images/placeholder.png" data-src="images/river image.jpeg" alt="river image">
+        </picture>
+
+    </main>
+
+    <script src="scripts/lazy.js"></script>
+</body>
+</html>
