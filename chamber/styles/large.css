@@ -104,7 +104,59 @@
         margin: 5px 5px;
         grid-column: 1/2;
         grid-row: 3/4;
+
     }
+
+div.grid-container {
+    display: grid;
+    grid-column: 2;
+    width: 500px;
+    padding: 10px;
+    background-color: #1c1f33;
+}
+.grid-item {
+    display: grid;
+    grid-column: 2;
+    width: 500px;
+    
+    position: relative;
+    background-color: #eee;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+   
+
+   
+}
+div.grid-item img {
+    width: 100%;
+    height: auto;
+    
+    
+}
+div.grid-item:hover {
+    box-shadow: 0 0 30px #eee;
+
+}
+.demo{
+    
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    height: 250px;
+    width: 250px;
+    opacity: 0.5;
+    color: black;
+    
+  
+   
+   
+}
+h4 {
+    margin: 0.5rem;
+
+}
+    
     #joinbtn{
         height: 30px;
         width: 100px;
@@ -126,6 +178,7 @@
         right:800px;
         top: 400px;
     }
+
 }
 
 

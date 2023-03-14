@@ -143,5 +143,11 @@
             
             text-align: Center;
          }
+         .cards{
+            display: grid;
+            grid-column: 1/3;
+         }
+
+
         }
     
