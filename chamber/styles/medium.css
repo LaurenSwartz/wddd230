@@ -90,6 +90,48 @@
         border-radius: 7px  ;
 
     }
+    .grid-container {
+        display: grid;
+        grid-column: 2;
+        padding: 2px;
+        background-color: #1c1f33;
+        }
+        .grid-item {
+        grid-column: 1 ;
+        width: 500px;
+        position: relative;
+        background-color: #eee;
+        border: 1px solid black;
+        padding: 20px;
+        text-align: center;
+       
+    
+       
+        }
+        div.grid-item img {
+        width: 100%;
+        height: auto;
+        
+        
+        }
+        div.grid-item:hover {
+        box-shadow: 0 0 30px #eee;
+    
+        }
+        .demo{
+        
+        position: absolute;
+        top: 50px;
+        right: 120px;
+        height: 350px;
+        width: 250px;
+        opacity: 0.5;
+        color: black;
+        
+      
+       
+       
+        }
     #herobtn{
         height: 50px;
         width: 100px;
