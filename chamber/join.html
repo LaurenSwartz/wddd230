@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="Page is for members who are interested in joining the chamber" content="Membership">
+<meta name="Lauren Swartz" content="Join Page">
+<title>Join Chamber Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- phone-default -->
+<link href="styles/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="styles/medium.css"rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="styles/large.css" rel="stylesheet">
+
+
+     
+</head>
+<header>
+<img id="logo" src="images/Florida Lake.png" alt="Chamber logo">
+<section class="headings">
+<h1>Florida Lake Chamber  </h1>
+
+</section>
+
+<nav>
+    <button id="hamburgerBton"><span>&#9776;</button>
+    <ul id="primary">
+        <li><a href="Discover.html">Discover</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="contact.html">Contact</a></li>    
+    </ul>
+</nav>
+<div id="icons">
+
+<a href="https://www.facebook.com/"> <img id="facebook" src="images/facebook.png" alt="facebook logo"> </a>
+<a href="https://www.linkedin.com/"><img id="linkedin" src="images/icons8-linkedin-48.png" alt="Linkedin logo"></a>
+
+</div>
+</header>
+<body>
+     
+<!-- CONTENT HERE -->
+<main>
+    <h1 class="join">Join the Chamber</h1>
+    <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>Applicant Information</legend>
+            <label class="top"> First Name* <input type="text" name="fname" required></label>
+            <label class="top"> Last Name* <input type="text" name="lname" required></label>
+            <label class="top"> Phone <input type="tel" name="phone" placeholder="123551234"></label>
+            <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label class="top"> Business title  <input type="text" name="title" ></label>
+            <label class="top"> Business name  <input type="text" name="bname" required></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Membership</legend>
+            <div>Membership Level</div>
+            <label class="sbs"><input type="radio"name="audience" value="NP">NP Membership is for non profit organizations and there is no fee.</label>
+            <label class="sbs"><input type="radio"name="audience" value="Bronze">Bronze Membership</label>
+            <label class="sbs"><input type="radio"name="audience" value="Silver">Silver Membership</label>
+            <label class="sbs"><input type="radio"name="audience" value="Gold">Gold Membership</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Business Description</legend>
+            <div>Brief description of Business</div>
+            <label class="bottom"><input type="text" name="dname" required></label>
+        </fieldset>
+
+        <input type="submit" value="Submit Information" class="submitBtn">
+
+    </form>
+        
+
+          
+        
+    </main>
+    
+<!-- FOOTER HERE -->   
+<footer>
+    <div class="section1">  
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img id ="florida" src="images/Florida Lake.png" alt="florida lake pic">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2>Florida Lake 
+            <br>   
+            Chamber </h2>  
+        </div>
+        <div class="box">
+            01 Hull street, Florida Lake 1709
+            <br>
+            +27 66 220 3244 
+        </div> 
+    </div>
+    <div class="section2">
+         © 2023|Florida Lake Chamber | <b>Lauren Swartz</b> | WDD 230 project 
+
+        <span id="lastModified"></span> 
+        
+    </div>
+</footer>
+<script src="js/scripts.js"></script>
+</body>
+</html>

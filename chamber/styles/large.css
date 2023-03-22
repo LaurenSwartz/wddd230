@@ -175,6 +175,12 @@
         right:800px;
         top: 400px;
     }
+    form label.sbs {
+        padding: .4rem;
+    }
+    #join{
+        text-align: center;
+    }
 
 
 }
