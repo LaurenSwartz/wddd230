@@ -1,0 +1,124 @@
+{
+    "businesses": [
+        {
+            "name": "KFC",
+            "type": "Fast Food",
+            "location": {
+                "address1": "145 # La Street",
+                "city": "Los Angeles",
+                "state": "CA",
+                "zip_code": "90002"
+            },
+            "phone": "+1-202-555-0105",
+            "website": "https://locations.kfc.com",
+            "logo": "https://1000logos.net/wp-content/uploads/2017/03/Kfc_logo.png"
+        },
+        {
+            "name": "McDonald", 
+            "type": "Entertainment",
+            "location": {
+                "address1": "83 Front StreetSan Pablo, CA 94806",
+                "city": "Los Angeles",   
+                "state": "CA",
+                "zip_code": "90002"
+            },
+            "phone": "+1-202-555-0123",
+            "website": "https://www.mcdonalds.com/",
+            "logo": "https://www.marketing-professionnel.fr/wp-content/uploads/2019/04/marque-puissante-creation-valeur-mc-donald.png"
+        },
+        {
+            "name": "Plumas bank",
+            "type": "Banking",
+            "location": {
+                "address1": "336 Main St",
+                "city": "Quincy",
+                "state": "CA",
+                "zip_code": "95971"
+            },
+            "phone": "123-456-7890",
+            "website": "https://www.plumasbank.com/",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR42_4W9f7TRW0nm1X7C-JMSnlDS3HCx-T5Mnuui0xvhnALgWpcIJ9mjt1qCxh2T9trlNA&usqp=CAU"
+        },
+        {
+            "name": "Barbershopca",
+            "type": "Hair & Style",
+            "location": {
+                "address1": "487 yellow Street",
+                "city": "san diego",
+                "state": "WA",
+                "zip_code": "11301"
+            },
+            "phone": "+1-193-251-1290",
+            "website": "https://www.thebarbershopca.com/",
+            "logo": "https://images.squarespace-cdn.com/content/v1/592cb291f5e2311557e77f88/1544659764816-5DMUNPZUM0TJ3K9LT7V1/TBS+Logo+Website+4.png?format=1500wp"
+        },
+        {
+            "name": "Walmart",
+            "type": "Shooping & Groming",
+            "location": {
+                "address1": "4 lead Street",
+                "city": "Quincy",
+                "state": "CA",
+                "zip_code": "95971"
+            },
+            "phone": "+1-223-102-3521",
+            "website": "https://www.walmart.com",
+            "logo": "https://cdn.mos.cms.futurecdn.net/5StAbRHLA4ZdyzQZVivm2c.jpg"
+        },
+        {
+            "name": "Dominos Pizza",
+            "type": "Food & Restaurant",
+            "location": {
+                "address1": "17 beerryfield Street",
+                "city": "Quincy",
+                "state": "CA",
+                "zip_code": "95971"
+            },
+            "phone": "+1-202-555-0144",
+            "website": "https://www.dominos.com/",
+            "logo": "https://i.insider.com/501fde6feab8ea876c000002?width=700"
+        },
+        {
+            "name": "PepsiCo",
+            "type": "US Industry Food & Drink",
+            "location": {
+                "address1": "200 Nike Road",
+                "city": "Los Angeles",
+                "state": "CA",
+                "zip_code": "11301"
+            },
+            "phone": "+1-202-555-0115",
+            "website": "https://www.pepsico.com/",
+            "logo": "https://viterbicareers.usc.edu/wp-content/uploads/2020/09/pepsico-logo.jpg"
+        },
+        {
+            "name": "Mediexcel Healh Care",
+            "type": "Public Services Healthcare",
+            "location": {
+                "address1": "21 Bridges Street",
+                "city": "Quincy",
+                "state": "CA",
+                "zip_code": "95971"
+            },
+            "phone": "+1-202-555-0186",
+            "website": "https://www.mediexcel.com/",
+            "logo": "https://www.livewellsd.org/content/livewell/home/all-articles/partners/partner-home/mediexcel_health_plan/_jcr_content/lw_par/lw_rwd_column/lw_rwd_col_1c/lw_image.img.jpg/1561495807798.jpg"
+        },
+        {
+            "name": "Bank Of America",
+            "type": "Banking Services",
+            "location": {
+                "address1": "Old Town Road Midway",
+                "city": "Quincy",
+                "state": "CA",
+                "zip_code": "95971"
+            },
+            "phone": "+1-202-555-0123",
+            "website": "https://www.bankofamerica.com/",
+            "logo": "https://logos-marques.com/wp-content/uploads/2021/07/Bank-of-America-logo.png"
+        }
+       
+      
+       
+    ]
+}
