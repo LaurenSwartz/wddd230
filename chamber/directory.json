@@ -1,124 +1,88 @@
 {
-    "businesses": [
-        {
-            "name": "KFC",
-            "type": "Fast Food",
-            "location": {
-                "address1": "145 # La Street",
-                "city": "Los Angeles",
-                "state": "CA",
-                "zip_code": "90002"
-            },
-            "phone": "+1-202-555-0105",
-            "website": "https://locations.kfc.com",
-            "logo": "https://1000logos.net/wp-content/uploads/2017/03/Kfc_logo.png"
+    "business": [{
+            "imageurl": "https://docuteam.b-cdn.net/img.php?store=15579&type=logo",
+            "companyName": "King & McCleary LLC",
+            "phoneNumber": "801-756-2915",
+            "address": "240 W Main St American Fork, UT 84003",
+            "url": "https://www.kingandmccleary.com/"
         },
         {
-            "name": "McDonald", 
-            "type": "Entertainment",
-            "location": {
-                "address1": "83 Front StreetSan Pablo, CA 94806",
-                "city": "Los Angeles",   
-                "state": "CA",
-                "zip_code": "90002"
-            },
-            "phone": "+1-202-555-0123",
-            "website": "https://www.mcdonalds.com/",
-            "logo": "https://www.marketing-professionnel.fr/wp-content/uploads/2019/04/marque-puissante-creation-valeur-mc-donald.png"
+            "imageurl": "https://chamberorganizer.com/afchamber/photos/MP734437banP.JPG",
+            "companyName": "Silhouette America",
+            "phoneNumber": "801-983-8937",
+            "address": "618 N 2000 W, Bldg #2 Lindon, UT 84042",
+            "url": "https://www.silhouetteamerica.com/"
         },
         {
-            "name": "Plumas bank",
-            "type": "Banking",
-            "location": {
-                "address1": "336 Main St",
-                "city": "Quincy",
-                "state": "CA",
-                "zip_code": "95971"
-            },
-            "phone": "123-456-7890",
-            "website": "https://www.plumasbank.com/",
-            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR42_4W9f7TRW0nm1X7C-JMSnlDS3HCx-T5Mnuui0xvhnALgWpcIJ9mjt1qCxh2T9trlNA&usqp=CAU"
+            "imageurl": "https://www.chamberorganizer.com/afchamber/photos/MP8995132103230900P.JPG",
+            "companyName": "Handcrafted Solutions",
+            "phoneNumber": "801-876-6300",
+            "address": "1316 E Springwater Way Eagle Mountain, UT 84005",
+            "url": "https://handcrafted.solutions/"
         },
         {
-            "name": "Barbershopca",
-            "type": "Hair & Style",
-            "location": {
-                "address1": "487 yellow Street",
-                "city": "san diego",
-                "state": "WA",
-                "zip_code": "11301"
-            },
-            "phone": "+1-193-251-1290",
-            "website": "https://www.thebarbershopca.com/",
-            "logo": "https://images.squarespace-cdn.com/content/v1/592cb291f5e2311557e77f88/1544659764816-5DMUNPZUM0TJ3K9LT7V1/TBS+Logo+Website+4.png?format=1500wp"
+            "imageurl": "https://docuteam.b-cdn.net/img.php?store=17328&type=logo",
+            "companyName": "Feminine Forms",
+            "phoneNumber": "801-770-0600",
+            "address": "345 S 500 E American Fork, UT 84003",
+            "url": "https://www.facebook.com/femforms/"
         },
         {
-            "name": "Walmart",
-            "type": "Shooping & Groming",
-            "location": {
-                "address1": "4 lead Street",
-                "city": "Quincy",
-                "state": "CA",
-                "zip_code": "95971"
-            },
-            "phone": "+1-223-102-3521",
-            "website": "https://www.walmart.com",
-            "logo": "https://cdn.mos.cms.futurecdn.net/5StAbRHLA4ZdyzQZVivm2c.jpg"
+            "imageurl": "https://docuteam.b-cdn.net/img.php?store=25421&type=logo",
+            "companyName": "Hee Haw Farms",
+            "phoneNumber": "801-368-0255",
+            "address": "95 S 2000 W Pleasant Grove, UT 84062",
+            "url": "https://www.heehawfarms.com/"
         },
         {
-            "name": "Dominos Pizza",
-            "type": "Food & Restaurant",
-            "location": {
-                "address1": "17 beerryfield Street",
-                "city": "Quincy",
-                "state": "CA",
-                "zip_code": "95971"
-            },
-            "phone": "+1-202-555-0144",
-            "website": "https://www.dominos.com/",
-            "logo": "https://i.insider.com/501fde6feab8ea876c000002?width=700"
+            "imageurl": "https://docuteam.b-cdn.net/img.php?store=14960&type=logo",
+            "companyName": "Helpside",
+            "phoneNumber": "801-473-7879",
+            "address": "395 W 600 N Lindon, UT 84042",
+            "url": "https://www.helpside.com/"
         },
         {
-            "name": "PepsiCo",
-            "type": "US Industry Food & Drink",
-            "location": {
-                "address1": "200 Nike Road",
-                "city": "Los Angeles",
-                "state": "CA",
-                "zip_code": "11301"
-            },
-            "phone": "+1-202-555-0115",
-            "website": "https://www.pepsico.com/",
-            "logo": "https://viterbicareers.usc.edu/wp-content/uploads/2020/09/pepsico-logo.jpg"
+            "imageurl": "https://docuteam.b-cdn.net/img.php?store=8955&type=logo",
+            "companyName": "Country View Veterinary Hospital",
+            "phoneNumber": "801-763-1900",
+            "address": "582 W Pacific Dr American Fork, UT 84003",
+            "url": "https://countryviewvet.com/"
         },
         {
-            "name": "Mediexcel Healh Care",
-            "type": "Public Services Healthcare",
-            "location": {
-                "address1": "21 Bridges Street",
-                "city": "Quincy",
-                "state": "CA",
-                "zip_code": "95971"
-            },
-            "phone": "+1-202-555-0186",
-            "website": "https://www.mediexcel.com/",
-            "logo": "https://www.livewellsd.org/content/livewell/home/all-articles/partners/partner-home/mediexcel_health_plan/_jcr_content/lw_par/lw_rwd_column/lw_rwd_col_1c/lw_image.img.jpg/1561495807798.jpg"
+            "imageurl": "https://docuteam.b-cdn.net/img.php?store=17393&type=logo",
+            "companyName": "Inquisitive Minds Montessori",
+            "phoneNumber": "801-559-7253",
+            "address": "100 N 100 W American Fork, UT 84003",
+            "url": "https://iqmutah.com/"
         },
         {
-            "name": "Bank Of America",
-            "type": "Banking Services",
-            "location": {
-                "address1": "Old Town Road Midway",
-                "city": "Quincy",
-                "state": "CA",
-                "zip_code": "95971"
-            },
-            "phone": "+1-202-555-0123",
-            "website": "https://www.bankofamerica.com/",
-            "logo": "https://logos-marques.com/wp-content/uploads/2021/07/Bank-of-America-logo.png"
+            "imageurl": "https://www.chamberorganizer.com/afchamber/photos/MP9868882204051525P.PNG",
+            "companyName": "DrillDown Solution",
+            "phoneNumber": "801-225-8474",
+            "address": "1134 E 300 N, Ste 101 American Fork, UT 84003",
+            "url": "https://drilldownsolution.com/"
+        },
+        {
+            "imageurl": "https://docuteam.b-cdn.net/img.php?store=16340&type=logo",
+            "companyName": "Ultimate Inflatables",
+            "phoneNumber": "891-916-9988",
+            "address": "629 W 200 S American Fork, UT 84003",
+            "url": "https://ultimateinflatables.com/"
+        },
+        {
+            "imageurl": "https://docuteam.b-cdn.net/img.php?store=71419&type=logo",
+            "companyName": "Alpine Airway Wellness",
+            "phoneNumber": "801-513-3994",
+            "address": "60 W Main St Ct, Ste 100 Alpine, UT 84004",
+            "url": "https://alpineairwaywellness.com/"
+        },
+        {
+            "imageurl": "https://docuteam.b-cdn.net/img.php?store=19813&type=logo",
+            "companyName": "BBQ Pit Stop",
+            "phoneNumber": "801-341-7171",
+            "address": "865 W State Rd Lehi, UT 84043",
+            "url": "https://www.bbqpitstop.com/"
         }
-       
-      
-       
+
     ]
 }

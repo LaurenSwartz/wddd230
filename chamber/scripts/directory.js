@@ -1,109 +1,67 @@
-const requestURL ='https://jhermk.github.io/wdd230/chamber/data.json';
-// const requestURL = '/chamber/data.json';
-const list = document.querySelector('#list');
-const table = document.querySelector('.table');
-const grid = document.querySelector('#grid');
-const cards = document.querySelector('.cards');
-const displayItems = document.querySelector('.displayItems');
+const requestURL ='https://raw.githubusercontent.com/LaurenSwartz/wdd230/main/chamber/directory.json';
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("article");
 
+// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
 
-async function getData(requestURL) {
-    const response = await fetch(requestURL);
-    if (response.ok) {
-        const data = await response.json();
-        // console.log(data);
-        const businesses = data['businesses'];
+gridbutton.addEventListener("click", () => {
+	// example using arrow function
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
 
-        businesses.forEach(business => {
-            displayCards(business);
-        });
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
+}
+async function getDirectoryData(url){
+    const response = await fetch(url);
+    const data = await response.json();
+    //console.table(data.prophets);
+    displayDirectory(data.business);
+}
+
+getDirectoryData(url);
+
+const displayDirectory = (businesses) => {
+    const cards = document.querySelector('div.cards');
+
+    businesses.forEach((business) => {
+        // create elements to add to the div.cards element
+        let portrait = document.createElement('img');
+        let h2 = document.createElement('section');
+        let h3 = document.createElement('h2');
+        let h4 = document.createElement('h4');
+        let p = document.createElement('p');
+        let a = document.createElement('a');
         
-        list.addEventListener('click', () => {
-            table.innerHTML = '';
-            cards.innerHTML = '';
-            businesses.forEach(business => {
-                displayTable(business);
-            });
-        });
 
-        grid.addEventListener('click', () => {
-            table.innerHTML = '';
-            cards.innerHTML = '';
-            businesses.forEach(business => {
-                displayCards(business);
-            });
-        });
-    }
-}
+        // Build the h2 content out to show the prophets full name - finish the template string
+        h2.textContent =` ${business.companyname}`;
+        h3.textContent =`${business.phoneNumber}`;
+        p.textContent =`${business.address}`;
+        a.textContent =`${business.url}`;
+        a.setAttribute(`href`, `${business.url}`)
 
-getData(requestURL);
+        //Build the image portrait by setting all the relevant attributes
+        portrait.setAttribute('src',business.imageurl);
+        portrait.setAttribute('alt', `${business.companyname}`);
+        portrait.setAttribute('loading','lazy');
+        portrait.setAttribute('width','340');
+        portrait.setAttribute('height','440');
 
-function displayCards(business) {
-    let card = document.createElement('section');
+        //Append the section (card) with the created elements
+        card.appendChild(portrait);
+        card.appendChild(h2);
+        card.appendChild(h3);
+        card.appendChild(p);
+        card.appendChild(a);
+        
+        cards.appendChild(card);
 
-    // Business Image
-    let image = document.createElement('img');
-    image.setAttribute('src', business.logo);
-    image.setAttribute('alt', `${business.name} Logo`);
-    card.appendChild(image);
-    
-    // Business Name
-    let h2 = document.createElement('h2');
-    h2.textContent = business.name;
-    card.appendChild(h2);
-
-    // Business Type
-    let type = document.createElement('p');
-    type.textContent = business.type;
-    card.appendChild(type);
-
-    // Business Address
-    let address = document.createElement('p');
-    address.textContent = business.location.address1 + ' ' + ' ' + business.location.city + ', ' + business.location.state + ' ' + business.location.zip_code;
-    card.appendChild(address);
-
-    // Business Phone
-    let phone = document.createElement('p');
-    phone.textContent = business.phone;
-    card.appendChild(phone);
-
-    // Business Website
-    let website = document.createElement('a');
-    website.setAttribute('href', business.website);
-    website.textContent = 'Website';
-    card.appendChild(website);
-
-    // Append card to the DOM (the prophet list).
-    document.querySelector('div.cards').appendChild(card);
-}
-
-function displayTable(business) {
-    let tableRow = document.createElement('tr');
-
-    // Business Name
-    let name = document.createElement('td');
-    name.textContent = business.name;
-    tableRow.appendChild(name);
-
-    // Business Type
-    let type = document.createElement('td');
-    type.textContent = business.type;
-    tableRow.appendChild(type);
-
-    // Business Address
-    let address = document.createElement('td');
-    address.textContent = business.location.address1 + ' ' + ' ' + business.location.city + ', ' + business.location.state + ' ' + business.location.zip_code;
-    tableRow.appendChild(address);
-
-    // Business Phone
-    let phone = document.createElement('td');
-    phone.textContent = business.phone;
-    tableRow.appendChild(phone);
-
-    // Business Website
-    let website = document.createElement('td');
-    website.innerHTML = `<a href="${business.website}">Website</a>`;
-    tableRow.appendChild(website);
-
-    document.querySelector('table').appendChild(tableRow);
+        
+    });
 }
