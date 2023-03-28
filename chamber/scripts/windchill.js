@@ -1,5 +1,5 @@
 
-function calculatewind(){
+function calculatewind(temperature, windspeed){
     temperature = document.querySelector("#tempinput").value;
     windspeed = document.querySelector("#windinput").value;
     windchill = document.querySelector("#windchill")
