@@ -65,6 +65,12 @@
         grid-template-columns: 1fr
         
     }
+    #spotlight img {
+        
+        width: 100px;
+        height: 100px;
+        margin-left: 100px;
+    }
     main #spot2 {
        margin: 5px 5px;
         grid-column: 3/4;
@@ -77,11 +83,21 @@
         grid-row: 3/4;
         grid-template-columns: 1fr
     }
+    #spot3 img {
+        width: 100px;
+        height: 100px;
+        margin-left: 100px;
+    }
    
     main #event {
         margin: 5px 5px;
         grid-column: 1/2;
         grid-row: 1/2;
+    }
+    #event img {
+        width: 100px;
+        height: 100px;
+        margin-left: 100px;
     }
    main #weather { 
     margin: 5px 5px;
@@ -94,6 +110,12 @@
         grid-row: 3/4;
 
     }
+    #join img {
+        width: 200px;
+        height: 200px;
+        margin-left: 20px;
+    }
+   
 
     .grid-container {
     display: grid;
@@ -146,7 +168,7 @@
         height: 30px;
         width: 100px;
         margin-top: 10px;
-        margin-left: 100px;
+        margin-left: 30px;
         background-color: #1c1f33;
         color: white;
         border-radius: 7px  ;
@@ -160,7 +182,7 @@
         color: white;
         border-radius: 7px  ;
         position: absolute;
-        right:800px;
+        right:750px;
         top: 400px;
     }
     form label.sbs {

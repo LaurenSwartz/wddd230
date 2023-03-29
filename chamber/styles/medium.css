@@ -56,24 +56,18 @@
         grid-row: 2/3;
     }
     main #spotlight {
-        
         grid-column: 1/4;
         grid-row: 3/4;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: 1fr;
         display: grid;
+        text-align: center;
     }
-    main section div.spot1 {
-       margin: 10px 10px;
-       height: 160px;
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-    main section div.spot2 {
-        margin: 10px 10px;
-        height: 160px;
-        grid-column: 2/3;
-        grid-row: 1/2;
+
+    main #spot2 {
+        margin: 5px 5px;
+        grid-column: 2/4;
+        grid-row: 4/4;
     }
     main #join { 
         display: inline;
@@ -84,11 +78,38 @@
         height: 30px;
         width: 100px;
         margin-top: 10px;
-        margin-left: 350px;
+        margin-left: 50px;
         background-color: #1c1f33;
         color: white;
         border-radius: 7px  ;
 
+    }
+    #event img {
+        width: 150px;
+        height: 150px;
+        margin-left: 200px;
+    }
+
+    #spot3 img {
+        width: 100px;
+        height: 100px;
+        margin-left: 80px;
+    }
+    #spot2 img {
+       
+        margin-left: 150px;
+    }
+    #join img {
+        width: 300px;
+        height: 300px;
+        
+    }
+    #spotlight img {
+            
+        width: 200px;
+        height: 200px;
+        margin-left: auto;
+        margin-top: 100px;
     }
     .grid-container {
         display: grid;
@@ -140,7 +161,7 @@
         color: white;
         border-radius: 7px  ;
         position: absolute;
-        right:400px;
+        right:450px;
         top: 250px;
     }
     main #event {

@@ -108,6 +108,27 @@ margin-top: -1px;
     height: 100%;
     
 }
+#event img {
+    width: 100px;
+    height: 100px;
+    margin-left: 110px;
+}
+#spot3 img {
+    width: 100px;
+    height: 100px;
+    margin-left: 110px;
+}
+#join img {
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+}
+#spotlight img {
+        
+    width: 100px;
+    height: 100px;
+    margin-left: 110px;
+}
    
     
 main{
