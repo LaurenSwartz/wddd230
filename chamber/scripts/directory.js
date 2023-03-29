@@ -1,4 +1,4 @@
-const url = "https://raw.githubusercontent.com/LaurenSwartz/wdd230/main/chamber/directory.json";
+const url = 'https://raw.githubusercontent.com/LaurenSwartz/wdd230/main/chamber/directory.json';
 //the following code is for grid and list, not sure if I need to put before or after url.
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
