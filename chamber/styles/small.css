@@ -131,14 +131,13 @@ margin-top: -1px;
 }
    
     
-main{
-    display:block;
+
     
 
     
-    
+   
 	
-}
+
 main section{
     border: 1px solid rgba(0, 0, 0, 0.2);
     height: 450px;
@@ -354,12 +353,21 @@ form label.bottom{
     padding: .75rem;
     color: red;
 }
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
+main {
+	margin: 0 auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	max-width: 100%;
+	background-color: #eee;
+	font-family: Roboto, Helvetica, sans-serif;
+}
 
 .menu {
 	margin: 1rem auto;
@@ -385,7 +393,7 @@ section {
 	background-color: #ccc;
 }
 
-.grid {
+.directory {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	align-items: center;
@@ -446,7 +454,6 @@ img {
 	height: 75px;
 	max-width: 100%; /* Images are jerks - Seattle*/
 }
-
 
 
 
