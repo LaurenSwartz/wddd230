@@ -119,8 +119,8 @@
    
 
     .grid-container {
-    display: grid;
-    grid-column: 2;
+   
+    grid-column: 1;
     padding: 2px;
     background-color: #1c1f33;
     }
@@ -237,7 +237,7 @@
     
     .directory {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         align-items: center;
     }
     

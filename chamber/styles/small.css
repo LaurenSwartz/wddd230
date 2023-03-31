@@ -185,7 +185,7 @@ main section{
     
 }
 .grid-container {
-    display: grid;
+    
     grid-template-columns: auto;
     padding: 10px;
     background-color: #1c1f33;
